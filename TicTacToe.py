@@ -174,6 +174,7 @@ def main():
             player = 'o'
         elif checkWin() == 't':
             message_box('Tie!', 'Tie! \nPlay again...')
+            player = 'x'
 
         if checkWin() != 'n':
             grid = [['n','n','n'],

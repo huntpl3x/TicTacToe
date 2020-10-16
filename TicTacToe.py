@@ -160,7 +160,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 exit()
-#ez
+
         if reset:
             reset = False
 
